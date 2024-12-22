@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: rgb(227, 140, 140);
+    position: relative;
+    top: 40px;
+    left:100px;
+    width:1000px;
+    height: 90px;
+}
+.logo{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;   
+}
+.nav-links{
+    /* display:grid; */
+    display: flex;
+    border: 2px ridge red;
+
+    list-style-type: none;
+    width: 900px;
+    margin-top: 30px;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.nav-links li a:hover{
+    color: rgb(83, 80, 80);
+   
+}
+.nav-links li a{
+    transition: 0.5s;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+.active{
+    padding: 10px 40px;
+    background-color: rgb(58, 60, 58);
+    border-radius: 400px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.active:hover{
+    background-color:white;
+    transition: 0.5s;
+    color: black;
+    border: 2px ridge black;
+}
+#icon{
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+#head{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 25px;
+}
+hr{
+    width: 1200px;
+    margin-left: 70px;
+}
+.img1{
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.para1{
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    height: 100px;
+}  
+.para1 h6{
+    font-size: 20px;
+   
+}
+.para1 p{
+    font-size: 20px;
+}
+.rate{
+   position: relative;
+   bottom: 100px;
+   margin-left: 700px;
+}
+.click1{
+    border-radius: 40px;
+    width: 140px;
+    height: 40px;
+    background-color: #344243;
+    color:white;
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: none;
+    margin-left: 850px;
+    position: relative;
+    bottom: 120px;
+}
+.click1:hover{
+    transition: 0.5s;
+    background-color:white;
+    color:black;
+    border: 1px ridge black;
+}
+
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 110px;
+}
+span{
+  position: relative;
+  bottom: 20px;
+}
+.footer h4{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    margin-left: 110px;
+} 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+   
+} 
+.footer-button{
+    border-radius: 40px;
+    width: 200px;
+    height: 45px;
+    background-color: #344243;
+    color:white;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    margin-left: 65px;
+    margin-top: 40px;
+    border-color:#344243;
+}
+.footer{
+    background-color: #FFF9AF;
+    margin-top: 80px;
+    height: 250px;
+}
+.footer-col{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.footer-col a{
+    color: black;
+}
+
+
+ </style>
+</head>
+<body>
+    <!-- <header>
+        <li> <a href="#"class="logo"><i class="fa-solid fa-diamond"></i>  The Cleanic </a></li>
+         <nav>
+             <ul class="nav-links">
+               
+                 <li><a href="#">plans</a></li>
+                 <li><a href="#">Services</a></li>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Log In<i class="fa-solid fa-user" id="icon"></i></a></li>
+                
+             </ul>
+         </nav>
+         <li> <a href="#" class="active">Book Now</a></li>
+     </header> -->
+     <div id="head">
+        <h1>Our Services</h1><br>
+        <h5>What can we clean for your today</h5>
+     </div><br><br><br><br><br><hr>
+     <img class="img1" src="https://static.wixstatic.com/media/84770f_a28eabedca454c768ad165ba8b0501ec~mv2.jpg/v1/fill/w_126,h_126,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_a28eabedca454c768ad165ba8b0501ec~mv2.jpg" alt="">
+     <div class="para1">
+        <h3>Deep Cleaning</h3><br>
+        <p >Thorough cleaning in every nook and cranny of your home.</p><br>
+        <a style="text-decoration: underline;color: black;" href="#">Read More </a>
+        <p class="rate">$100</p>
+        <button class="click1">Book a cleaner</button>
+     </div><br><br><br><br><br><hr>
+
+     <img class="img1" src="https://static.wixstatic.com/media/c837a6_c36985cdbd414119ac2158a06e3c0c00~mv2.jpg/v1/fill/w_126,h_126,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_c36985cdbd414119ac2158a06e3c0c00~mv2.jpg" alt="">
+     <div class="para1">
+        <h3>Furniture Cleaning</h3><br>
+        <p >Ensuring your furniture is refreshed, sanitized, and looks as good as ...</p><br>
+        <a style="text-decoration: underline;color: black;" href="#">Read More </a>
+        <p class="rate">$100</p>
+        <button class="click1">Book a cleaner</button>
+     </div><br><br><br><br><br><hr>
+
+     <img class="img1" src="https://static.wixstatic.com/media/c837a6_922f69f0ad3d4e8fb2783b182608d39c~mv2.jpg/v1/fill/w_126,h_126,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_922f69f0ad3d4e8fb2783b182608d39c~mv2.jpg" alt="">
+     <div class="para1">
+        <h3>Kitchen Cleaning</h3><br>
+        <p >Leaving your kitchen spotless and hygienic.</p><br>
+        <a style="text-decoration: underline;color: black;" href="#">Read More </a>
+        <p class="rate">$100</p>
+        <button class="click1">Book a cleaner</button>
+     </div><br><br><br><br><br><hr>
+
+     <img class="img1" src="https://static.wixstatic.com/media/c837a6_d358929fbebb4420a41fad5e64d3429c~mv2.jpg/v1/fill/w_126,h_126,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_d358929fbebb4420a41fad5e64d3429c~mv2.jpg" alt="">
+     <div class="para1">
+        <h3>Move In/Move Out</h3><br>
+        <p >Hassle-free cleaning for a smooth transition..</p><br>
+        <a style="text-decoration: underline;color: black;" href="#">Read More </a>
+        <p class="rate">$100</p>
+        <button class="click1">Book a cleaner</button>
+     </div><br><br><br><br><br><hr>
+
+     <img class="img1" src="https://static.wixstatic.com/media/c837a6_0c09417837a04f32aa6ffd0cca879d36~mv2.jpeg/v1/fill/w_126,h_126,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_0c09417837a04f32aa6ffd0cca879d36~mv2.jpeg" alt="">
+     <div class="para1">
+        <h3>Laundry</h3><br>
+        <p >Washing, folding and ironing, providing you with neatly pressed clothe...</p><br>
+        <a style="text-decoration: underline;color: black;" href="#">Read More </a>
+        <p class="rate">$100</p>
+        <button class="click1">Book a cleaner</button>
+     </div><br><br><br><br><br><hr>
+
+     <img class="img1" src="https://static.wixstatic.com/media/c837a6_8e4e5fd7c67340f980d7abe6d99a3267~mv2.jpg/v1/fill/w_126,h_126,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_8e4e5fd7c67340f980d7abe6d99a3267~mv2.jpg" alt="">
+     <div class="para1">
+        <h3>Window Cleaning</h3><br>
+        <p >Crystal-clear results, enhancing natural light and a sparkling view..</p><br>
+        <a style="text-decoration: underline;color: black;" href="#">Read More </a>
+        <p class="rate">$100</p>
+        <button class="click1">Book a cleaner</button>
+     </div><br><br><br><br><br><hr>
+
+     <img class="img1" src="https://static.wixstatic.com/media/c837a6_a6f1c5955cd64e64beb2924dc940d522~mv2.jpg/v1/fill/w_126,h_126,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_a6f1c5955cd64e64beb2924dc940d522~mv2.jpg" alt="">
+     <div class="para1">
+        <h3>Window Cleaning</h3><br>
+        <p >Tailored to maintain a clean workspace, promoting a productive environ...</p><br>
+        <a style="text-decoration: underline;color: black;" href="#">Read More </a>
+        <p class="rate">$100</p>
+        <button class="click1">Book a cleaner</button>
+     </div><br><br><br><br><br><hr>
+
+     <footer class="footer">
+        
+            <div class="row">
+                <div class="footer-col">
+                   <h4><a href="#"><i class="fa-solid fa-diamond"></i></a>The Cleanic</h4>
+                   <button class="footer-button">Book Now</button>
+                </div>
+                <div class="footer-col">
+                    <h4>Leagel</h4>
+                    <ul>
+                        <li><a href="#">Privacy and policy</a></li>
+                        <li><a href="#">Terms and condition</a></li>
+                        <li><a href="#">Refund policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Operating Hours</h4>
+                    <ul>
+                        <li><a href="#">Mon - Fri: 8am - 8pm</a></li>
+                        <li><a href="#">Saturday: 9am - 7pm</a></li>
+                        <li><a href="#">Sunday: 9am - 8pm</a></li>
+                    </ul><br>
+                    <h4>Follow us for cleaning tips</h4 >
+                    <span style="margin-left: 150px;">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    </span>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">The cleanic</a></li>
+                        <li><a href="#">500 Terry Francine Street</a></li>
+                        <li><a href="#">San Francisco,CA 94158</a></li>
+                        <li><a href="#"> 123-456-7890</a></li>
+                        <li><a href="#">info@mysite.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        
+
+    </footer>
+
+    
+
+
+     
+
+     
+</body>
+</html>
